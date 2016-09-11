@@ -2,7 +2,7 @@
 /**
  * Simple helper to find DOM nodes returning them as Array
  * @param   { String|DOMNodeList } selector - either the query or the DOM nodes to arraify
- * @param   { HTMLElement } ctx -
+ * @param   { HTMLElement }        ctx      - context defining where the query will search DOM nodes
  * @returns { Array } DOM nodes in an array
  */
 export default function $(selector, ctx) {
