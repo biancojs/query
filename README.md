@@ -1,5 +1,5 @@
-# next-events
-Modern DOM events helpers written in es2015
+# next-query
+Modern DOM query selectors helpers written in es2015
 
 This script will not be transpiled and it is only thought to be part of your build chain.
 
