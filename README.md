@@ -1,4 +1,4 @@
-# next-query
+# bianco-query
 Modern DOM query selectors helpers written in es2015
 
 This script will not be transpiled and it is only thought to be part of your build chain.
@@ -6,7 +6,7 @@ This script will not be transpiled and it is only thought to be part of your bui
 ## Usage
 
 ```js
-import $ from 'next-query'
+import $ from 'bianco-query'
 
 $('h1').forEach((h1) => console.log(h1.innerHTML))
 ```
