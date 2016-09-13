@@ -6,8 +6,9 @@
   "jsnext:main": "index.next.js",
   "scripts": {
     "prepublish": "npm run build && npm test",
+    "lint": "eslint index.next.js test.js",
     "build": "rollup -f cjs -- index.next.js > index.js",
-    "test": "node test"
+    "test": "npm run lint && node test"
   },
   "files": [
     "index.js",

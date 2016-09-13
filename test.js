@@ -21,6 +21,3 @@ assert.equal(typeof div, 'object')
 assert.equal(div.length, 1)
 
 assert.equal($('.item', div[0]).length, 2)
-
-
-
