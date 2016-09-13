@@ -3,13 +3,15 @@
   "version": "0.0.0",
   "description": "Modern DOM query selectors helpers written in es2015",
   "main": "index.js",
-  "jsnext:main": "index.js",
+  "jsnext:main": "index.next.js",
   "scripts": {
-    "prepublish": "npm test",
-    "test": "echo 'there will be soon'"
+    "prepublish": "npm run build && npm test",
+    "build": "rollup -f cjs -- index.next.js > index.js",
+    "test": "node test"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "index.next.js"
   ],
   "repository": {
     "type": "git",
@@ -29,5 +31,9 @@
   "bugs": {
     "url": "https://github.com/GianlucaGuarini/bianco-query/issues"
   },
-  "homepage": "https://github.com/GianlucaGuarini/bianco-query#readme"
+  "homepage": "https://github.com/GianlucaGuarini/bianco-query#readme",
+  "devDependencies": {
+    "jsdom": "9.5.0",
+    "jsdom-global": "2.1.0"
+  }
 }
