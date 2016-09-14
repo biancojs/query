@@ -20,8 +20,8 @@ $('h1').forEach((h1) => console.log(h1.innerHTML))
 - `$(selector|NodeList, context)` returns always an array like object containing the elements found
 
 
-[travis-image]:https://img.shields.io/travis/biancojs/bianco-query.svg?style=flat-square
-[travis-url]:https://travis-ci.org/biancojs/bianco-query
+[travis-image]:https://img.shields.io/travis/biancojs/query.svg?style=flat-square
+[travis-url]:https://travis-ci.org/biancojs/query
 
 [license-image]:http://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
 [license-url]:LICENSE.txt
