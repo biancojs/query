@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GianlucaGuarini/bianco-query.git"
+    "url": "git+https://github.com/biancojs/bianco-query.git"
   },
   "keywords": [
     "es6",
@@ -30,9 +30,9 @@
   "author": "Gianluca Guarini <gianluca.guarini@gmail.com> (http://gianlucaguarini.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GianlucaGuarini/bianco-query/issues"
+    "url": "https://github.com/biancojs/bianco-query/issues"
   },
-  "homepage": "https://github.com/GianlucaGuarini/bianco-query#readme",
+  "homepage": "https://github.com/biancojs/bianco-query#readme",
   "devDependencies": {
     "jsdom": "9.5.0",
     "jsdom-global": "2.1.0"

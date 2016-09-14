@@ -1,7 +1,6 @@
 # bianco-query
 
 [![Build Status][travis-image]][travis-url]
-
 [![NPM version][npm-version-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-url]
 [![MIT License][license-image]][license-url]
@@ -18,11 +17,11 @@ $('h1').forEach((h1) => console.log(h1.innerHTML))
 
 ## API
 
-- `$(selector|NodeList, context)` returns always an array of the elements found
+- `$(selector|NodeList, context)` returns always an array like object containing the elements found
 
 
-[travis-image]:https://img.shields.io/travis/GianlucaGuarini/bianco-query.svg?style=flat-square
-[travis-url]:https://travis-ci.org/GianlucaGuarini/bianco-query
+[travis-image]:https://img.shields.io/travis/biancojs/bianco-query.svg?style=flat-square
+[travis-url]:https://travis-ci.org/biancojs/bianco-query
 
 [license-image]:http://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
 [license-url]:LICENSE.txt
