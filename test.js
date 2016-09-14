@@ -2,7 +2,7 @@ require('jsdom-global')()
 const assert = require('assert')
 const $ = require('./')
 
-function setup() {
+function before() {
   var div = document.createElement('div')
 
   div.innerHTML = `
@@ -14,10 +14,9 @@ function setup() {
   document.body.appendChild(div)
 }
 
-setup()
+before()
 
 const div = $('div')
 assert.equal(typeof div, 'object')
 assert.equal(div.length, 1)
-
 assert.equal($('.item', div[0]).length, 2)
