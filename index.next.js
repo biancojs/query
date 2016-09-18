@@ -1,21 +1,14 @@
+import domToArray from 'bianco.dom-to-array'
 
 /**
- * Simple helper to find DOM nodes returning them as Array
+ * Simple helper to find DOM nodes returning them as array like loopable object
  * @param   { String|DOMNodeList } selector - either the query or the DOM nodes to arraify
- * @param   { HTMLElement }        ctx      - context defining where the query will search DOM nodes
+ * @param   { HTMLElement }        ctx      - context defining where the query will search for the DOM nodes
  * @returns { Object } DOM nodes in an array like object
  */
 export default function $(selector, ctx) {
-  var els = selector
-
-  // find the DOM nodes
-  if (typeof selector === 'string')
-    els = (ctx || document).querySelectorAll(selector)
-
-
-  // arraify the DOM nodes found
-  if (!Array.isArray(els))
-    els = Array.from(els)
-
-  return els
+  return domToArray(typeof selector === 'string' ?
+    (ctx || document).querySelectorAll(selector) :
+    selector
+  )
 }

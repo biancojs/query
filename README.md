@@ -10,9 +10,19 @@ Modern DOM query selectors helpers written in es2015
 ## Usage
 
 ```js
-import $ from 'bianco-query'
+import $ from 'bianco.query'
 
-$('h1').forEach((h1) => console.log(h1.innerHTML))
+const footer = document.querySelector('.main-footer')
+const header = document.querySelector('.main-header')
+
+// convert DOM nodes into arrays
+$(footer)
+  .concat($(header))
+  .forEach(el => el.classList.add('fade-in'))
+
+// handle DOM queries
+$('h1', 'main').forEach(h1 => h1.classList.add('main-title'))
+
 ```
 
 ## API
