@@ -36,6 +36,6 @@ $('h1', 'main').forEach(h1 => h1.classList.add('main-title'))
 [license-image]:http://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
 [license-url]:LICENSE.txt
 
-[npm-version-image]:http://img.shields.io/npm/v/bianco-query.svg?style=flat-square
-[npm-downloads-image]:http://img.shields.io/npm/dm/bianco-query.svg?style=flat-square
-[npm-url]:https://npmjs.org/package/bianco-query
+[npm-version-image]:http://img.shields.io/npm/v/bianco.query.svg?style=flat-square
+[npm-downloads-image]:http://img.shields.io/npm/dm/bianco.query.svg?style=flat-square
+[npm-url]:https://npmjs.org/package/bianco.query
