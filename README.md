@@ -1,4 +1,4 @@
-# bianco-query
+# bianco.query
 
 [![Build Status][travis-image]][travis-url]
 [![NPM version][npm-version-image]][npm-url]
