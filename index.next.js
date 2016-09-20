@@ -5,7 +5,7 @@ import domToArray from 'bianco.dom-to-array'
  * @param   { String } 			   selector - the selector to be fixed
  * @returns { String } The sanitized selector
  */
-const fixSelector = selector => selector.trim().indexOf(':scope') !== 0 ? `:scope ${ selector }` : selector
+const prefixSelector = selector => selector.trim().indexOf(':scope') !== 0 ? `:scope ${ selector }` : selector
 
 /**
  * Simple helper to find DOM nodes returning them as array like loopable object
@@ -15,7 +15,7 @@ const fixSelector = selector => selector.trim().indexOf(':scope') !== 0 ? `:scop
  */
 export default function $(selector, ctx) {
   return domToArray(typeof selector === 'string' ?
-    (ctx || document).querySelectorAll(fixSelector(selector)) :
+    (ctx || document).querySelectorAll(ctx ? prefixSelector(selector) : selector) :
     selector
   )
 }
