@@ -15,7 +15,7 @@ import $ from 'bianco.query'
 const footer = document.querySelector('.main-footer')
 const header = document.querySelector('.main-header')
 
-// convert DOM nodes into arrays
+// convert DOM nodes to arrays
 $(footer)
   .concat($(header))
   .forEach(el => el.classList.add('fade-in'))
