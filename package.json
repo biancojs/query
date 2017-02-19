@@ -35,10 +35,10 @@
   },
   "homepage": "https://github.com/biancojs/query#readme",
   "devDependencies": {
-    "jsdom": "9.5.0",
-    "jsdom-global": "2.1.0"
+    "jsdom": "9.11.0",
+    "jsdom-global": "2.1.1"
   },
   "dependencies": {
-    "bianco.dom-to-array": "^0.0.4"
+    "bianco.dom-to-array": "^0.0.7"
   }
 }
