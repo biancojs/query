@@ -28,4 +28,11 @@ describe('Bianco query', function() {
     assert.equal(typeof els, 'object')
     assert.equal(els.length, 2)
   })
+
+  it('No matched queries return empty arrays', function() {
+    const els = $('.foo')
+    assert.equal(Array.isArray(els), true)
+    assert.equal(typeof els, 'object')
+    assert.equal(els.length, 0)
+  })
 })
