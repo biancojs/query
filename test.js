@@ -5,7 +5,7 @@ const body = document.body
 
 describe('Bianco query', function() {
   before(function() {
-    var div = document.createElement('div')
+    const div = document.createElement('div')
 
     div.innerHTML = `
     <ul>
