@@ -15,7 +15,8 @@
   },
   "files": [
     "index.js",
-    "index.next.js"
+    "index.next.js",
+    "index.d.ts"
   ],
   "repository": {
     "type": "git",
