@@ -1,6 +1,6 @@
 # bianco.query
 
-[![Build Status][travis-image]][travis-url]
+[![Build Status][ci-image]][ci-url]
 [![NPM version][npm-version-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-url]
 [![MIT License][license-image]][license-url]
@@ -24,18 +24,15 @@ $(footer)
 $('h1', 'main').forEach(h1 => h1.classList.add('main-title'))
 ```
 
-[travis-image]: https://img.shields.io/travis/biancojs/query.svg?style=flat-square
-
-[travis-url]: https://travis-ci.org/biancojs/query
+[ci-image]:https://img.shields.io/github/workflow/status/biancojs/query/test?style=flat-square
+[ci-url]:https://github.com/biancojs/query/actions
 
 [license-image]: http://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
 
 [license-url]: LICENSE.txt
-
 [npm-version-image]: http://img.shields.io/npm/v/bianco.query.svg?style=flat-square
 
 [npm-downloads-image]: http://img.shields.io/npm/dm/bianco.query.svg?style=flat-square
-
 [npm-url]: https://npmjs.org/package/bianco.query
 
 ## API
