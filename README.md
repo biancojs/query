@@ -44,8 +44,8 @@ $('h1', 'main').forEach(h1 => h1.classList.add('main-title'))
 
 #### Table of Contents
 
--   [$](#)
-    -   [Parameters](#parameters)
+*   [$](#)
+    *   [Parameters](#parameters)
 
 ### $
 
@@ -53,7 +53,7 @@ Simple helper to find DOM nodes returning them as array like loopable object
 
 #### Parameters
 
--   `selector` **([string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String) | DOMNodeList)** either the query or the DOM nodes to arraify
--   `ctx` **[HTMLElement](https://developer.mozilla.org/docs/Web/HTML/Element)** context defining where the query will search for the DOM nodes
+*   `selector` **([string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String) | DOMNodeList)** either the query or the DOM nodes to arraify
+*   `scope` **[HTMLElement](https://developer.mozilla.org/docs/Web/HTML/Element)** context defining where the query will search for the DOM nodes
 
 Returns **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** DOM nodes found as array
