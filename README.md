@@ -24,7 +24,7 @@ $(footer)
 $('h1', 'main').forEach(h1 => h1.classList.add('main-title'))
 ```
 
-[ci-image]:https://img.shields.io/github/workflow/status/biancojs/query/test?style=flat-square
+[ci-image]:https://img.shields.io/github/actions/workflow/status/biancojs/query/test.yml?style=flat-square
 [ci-url]:https://github.com/biancojs/query/actions
 
 [license-image]: http://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
